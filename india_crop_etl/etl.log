@@ -1,0 +1,49 @@
+2026-02-27 18:23:56,425 | INFO |    States sample: ['Assam', 'Karnataka', 'Kerala', 'Meghalaya', 'West Bengal']
+2026-02-27 18:23:56,464 | INFO |    Features: ['Crop', 'Crop_Year', 'Season', 'State', 'Area', 'Production', 'Annual_Rainfall', 'Fertilizer', 'Pesticide', 'Yield', 'Yield_kg_ha', 'Rainfall_mm_ha', 'Season_Code', 'Crop_Code', 'State_Code', 'etl_timestamp']
+2026-02-27 18:25:27,297 | INFO | STARTING INDIA CROP ETL PIPELINE
+2026-02-27 18:25:27,297 | INFO | EXTRACTING Full India Dataset...
+2026-02-27 18:25:27,955 | INFO | SUCCESS: 19,689 rows | 30 states
+2026-02-27 18:25:27,957 | INFO | States sample: ['Assam', 'Karnataka', 'Kerala', 'Meghalaya', 'West Bengal']
+2026-02-27 18:25:27,958 | INFO | TRANSFORMING dataset...
+2026-02-27 18:25:28,001 | INFO | TRANSFORMED: 18,921 clean records
+2026-02-27 18:25:28,002 | INFO | LOADING to SQLite...
+2026-02-27 18:25:28,038 | INFO | Loaded chunk 1/38 (500 rows)
+2026-02-27 18:25:28,052 | INFO | Loaded chunk 2/38 (500 rows)
+2026-02-27 18:25:28,065 | INFO | Loaded chunk 3/38 (500 rows)
+2026-02-27 18:25:28,078 | INFO | Loaded chunk 4/38 (500 rows)
+2026-02-27 18:25:28,092 | INFO | Loaded chunk 5/38 (500 rows)
+2026-02-27 18:25:28,105 | INFO | Loaded chunk 6/38 (500 rows)
+2026-02-27 18:25:28,119 | INFO | Loaded chunk 7/38 (500 rows)
+2026-02-27 18:25:28,132 | INFO | Loaded chunk 8/38 (500 rows)
+2026-02-27 18:25:28,144 | INFO | Loaded chunk 9/38 (500 rows)
+2026-02-27 18:25:28,157 | INFO | Loaded chunk 10/38 (500 rows)
+2026-02-27 18:25:28,168 | INFO | Loaded chunk 11/38 (500 rows)
+2026-02-27 18:25:28,178 | INFO | Loaded chunk 12/38 (500 rows)
+2026-02-27 18:25:28,189 | INFO | Loaded chunk 13/38 (500 rows)
+2026-02-27 18:25:28,200 | INFO | Loaded chunk 14/38 (500 rows)
+2026-02-27 18:25:28,211 | INFO | Loaded chunk 15/38 (500 rows)
+2026-02-27 18:25:28,223 | INFO | Loaded chunk 16/38 (500 rows)
+2026-02-27 18:25:28,234 | INFO | Loaded chunk 17/38 (500 rows)
+2026-02-27 18:25:28,247 | INFO | Loaded chunk 18/38 (500 rows)
+2026-02-27 18:25:28,258 | INFO | Loaded chunk 19/38 (500 rows)
+2026-02-27 18:25:28,267 | INFO | Loaded chunk 20/38 (500 rows)
+2026-02-27 18:25:28,275 | INFO | Loaded chunk 21/38 (500 rows)
+2026-02-27 18:25:28,282 | INFO | Loaded chunk 22/38 (500 rows)
+2026-02-27 18:25:28,291 | INFO | Loaded chunk 23/38 (500 rows)
+2026-02-27 18:25:28,299 | INFO | Loaded chunk 24/38 (500 rows)
+2026-02-27 18:25:28,309 | INFO | Loaded chunk 25/38 (500 rows)
+2026-02-27 18:25:28,318 | INFO | Loaded chunk 26/38 (500 rows)
+2026-02-27 18:25:28,327 | INFO | Loaded chunk 27/38 (500 rows)
+2026-02-27 18:25:28,335 | INFO | Loaded chunk 28/38 (500 rows)
+2026-02-27 18:25:28,344 | INFO | Loaded chunk 29/38 (500 rows)
+2026-02-27 18:25:28,352 | INFO | Loaded chunk 30/38 (500 rows)
+2026-02-27 18:25:28,362 | INFO | Loaded chunk 31/38 (500 rows)
+2026-02-27 18:25:28,373 | INFO | Loaded chunk 32/38 (500 rows)
+2026-02-27 18:25:28,383 | INFO | Loaded chunk 33/38 (500 rows)
+2026-02-27 18:25:28,392 | INFO | Loaded chunk 34/38 (500 rows)
+2026-02-27 18:25:28,401 | INFO | Loaded chunk 35/38 (500 rows)
+2026-02-27 18:25:28,411 | INFO | Loaded chunk 36/38 (500 rows)
+2026-02-27 18:25:28,419 | INFO | Loaded chunk 37/38 (500 rows)
+2026-02-27 18:25:28,433 | INFO | Loaded chunk 38/38 (421 rows)
+2026-02-27 18:25:28,502 | INFO | DATABASE READY: C:\Users\Deepthi V\india_crop_etl\india_crops.db (18,921 records)
+2026-02-27 18:25:28,502 | INFO | GENERATING ANALYTICS...

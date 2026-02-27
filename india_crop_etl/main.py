@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-INDIA CROP YIELD ETL - FIXED FOR WINDOWS PYTHON 3.13
-No emojis, smaller SQL chunks, production-ready
-"""
 
 import pandas as pd
 import numpy as np
@@ -169,3 +165,4 @@ class IndiaCropETL:
 if __name__ == "__main__":
     project = IndiaCropETL()
     project.run_pipeline()
+

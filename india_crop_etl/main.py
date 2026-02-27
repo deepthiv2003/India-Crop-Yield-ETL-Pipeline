@@ -9,7 +9,6 @@ from datetime import datetime
 import logging
 from pathlib import Path
 
-# FIXED: Windows-compatible logging (NO emojis)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s | %(levelname)s | %(message)s',
@@ -165,4 +164,5 @@ class IndiaCropETL:
 if __name__ == "__main__":
     project = IndiaCropETL()
     project.run_pipeline()
+
 
